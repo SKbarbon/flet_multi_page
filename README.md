@@ -18,7 +18,7 @@ Its very simple, you just need to import the package and import the class `subPa
 This is an example code:
 
 ```python
-from flet_sub_page import subPage
+from flet_multi_page import subPage
 import flet
 
 def main (page:flet.Page):
@@ -37,7 +37,7 @@ if __name__ == "__main__": #? This is so important, there will be errors without
 Or if you want a second `target` function for the page you can just add `target` argument like this:
 
 ```python
-from flet_sub_page import subPage
+from flet_multi_page import subPage
 import flet
 import random
 
