@@ -9,6 +9,10 @@ With this tool, you can start new pages on the same script without the need of c
 pip install flet-multi-page
 ```
 
+## little peek
+
+![Screen Recording 2023-04-27 at 3 22 44 PM](https://user-images.githubusercontent.com/86029286/234861120-f2dcc22d-169c-4161-8e40-a20455250f99.GIF)
+
 ## usage
 Its very simple, you just need to import the package and import the class `subPage`.
 This is an example code:
