@@ -1,5 +1,5 @@
 # flet_multi_page
-until now, flet v0.6 does not support multi pages.
+until now, flet does not support multi pages.
 With this tool, you can start new pages on the same script without the need of creating new `app` class or new cmd process etc...
 
 
