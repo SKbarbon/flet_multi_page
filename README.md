@@ -64,3 +64,4 @@ if __name__ == "__main__": #? This is so important, there will be errors without
 - `controls` argument (optional): You can add the controls you need directly to the new page.
 - `page_props` argument (optional): You can add the page properties you want as dict.
 - `target` argument (optional): You can set a target function to call for the new page, and get `page` class as an argument.
+- `view` argument (optional): The default is `FLET_APP` which is a desktop app view, you can change it to `flet.WEB_BROWSER` or `web_browser` to make the page open in a web_browser.

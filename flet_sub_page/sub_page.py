@@ -24,15 +24,16 @@ def _s_ (sub_page_class):
             sub_page_class.target (page)
         page.update()
     
-    flet.app(target=APP)
+    flet.app(target=APP, view=sub_page_class.view)
 
 
 
 class subPage (object):
-    def __init__ (self, controls=None, page_props=None, target=None):
+    def __init__ (self, controls=None, page_props=None, target=None, view=flet.FLET_APP):
         self.controls = controls
         self.page_props = page_props
         self.target = target
+        self.view = view
     
     def start (self):
         with concurrent.futures.ProcessPoolExecutor() as executor:

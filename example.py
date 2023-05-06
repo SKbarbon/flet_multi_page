@@ -10,7 +10,7 @@ def second_target (page:flet.Page): #? This is the target function of the second
 
 def main (page:flet.Page):
     def start_new_page (e):
-        p = subPage(target=second_target) #! This is the "subPage" class.
+        p = subPage(target=second_target, view="web_browser") #! This is the "subPage" class.
         p.start() #! This will run and start the second page.
     
     page.add(flet.ElevatedButton("start new page", on_click=start_new_page,))
@@ -18,4 +18,4 @@ def main (page:flet.Page):
 
 
 if __name__ == "__main__": #? This is so important, there will be errors without it.
-    flet.app(target=main)
+    flet.app(target=main, view=flet.WEB_BROWSER)
