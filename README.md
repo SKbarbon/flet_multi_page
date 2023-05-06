@@ -6,7 +6,7 @@ With this tool, you can start new pages on the same script without the need of c
 ## install
 
 ```
-pip install flet-multi-page
+pip install flet-multi-page --upgrade
 ```
 
 ## little peek
