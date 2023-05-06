@@ -1,4 +1,4 @@
-from flet_sub_page import subPage
+from flet_multi_page import subPage
 import flet
 import random
 

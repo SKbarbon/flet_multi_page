@@ -1,4 +1,3 @@
-from typing import Any
 import flet
 import multiprocessing
 import concurrent.futures
